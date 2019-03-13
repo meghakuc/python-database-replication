@@ -1,6 +1,12 @@
-I have created two separate files: one for table generation and other for data transfer
+<h1>Steps to configure and run the project:</h1>
 
-<h1>Python Database Table Replication:</h1>
+Clone the repository on your system:
+
+	git clone https://github.com/meghakuc/python-database-replication.git
+
+I have created two separate files: one for table generation and other for data transfer.
+
+<h2>Python Database Table Replication:</h2>
 
 Here is the code file: table_generation.py
 
@@ -21,7 +27,7 @@ Here are steps to run:
 
 6. Table will generate in MS-SQL database.
 
-<h1>Python Database Data Replication:</h1>
+<h2>Python Database Data Replication:</h2>
 
 Here is the code file: data_transfer.py
 
