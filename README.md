@@ -23,7 +23,7 @@ Here are steps to run:
 4. Create database in MS-SQL named as "testdb"
 5. Run command from anaconda prompt:
 
-	python table_generation.py -f sqlite:///chinook.db -t mssql+pymssql://username:password@hostname:port/testdb
+		python table_generation.py -f sqlite:///chinook.db -t mssql+pymssql://username:password@hostname:port/testdb
 
 6. Table will generate in MS-SQL database.
 
@@ -35,6 +35,6 @@ Here are steps to run:
 1. Copy data_transfer.py also in same folder.
 2. Run command from anaconda prompt:
 
-	python data_transfer.py -f sqlite:///chinook.db -t mssql+pymssql://username:password@hostname:port/testdb
+		python data_transfer.py -f sqlite:///chinook.db -t mssql+pymssql://username:password@hostname:port/testdb
 
 3. Data will transfer in tables in MS-SQL database.
