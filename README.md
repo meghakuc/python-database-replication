@@ -38,3 +38,7 @@ Here are steps to run:
 		python data_transfer.py -f sqlite:///chinook.db -t mssql+pymssql://username:password@hostname:port/testdb
 
 3. Data will transfer in tables in MS-SQL database.
+
+Here is the link for article:
+
+	https://www.linkedin.com/pulse/copying-database-across-platforms-sqlalchemy-megha-kuchchal/
